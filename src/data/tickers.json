@@ -1,0 +1,218 @@
+[
+    {
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "per": 27.5,
+      "roe": 35.9,
+      "marketCap": 2850,
+      "dividendYield": 0.5,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MSFT",
+      "companyName": "Microsoft Corporation",
+      "per": 32.1,
+      "roe": 42.7,
+      "marketCap": 2450,
+      "dividendYield": 0.8,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "GOOGL",
+      "companyName": "Alphabet Inc.",
+      "per": 24.8,
+      "roe": 28.4,
+      "marketCap": 1750,
+      "dividendYield": 0,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "AMZN",
+      "companyName": "Amazon.com Inc.",
+      "per": 54.3,
+      "roe": 16.2,
+      "marketCap": 1650,
+      "dividendYield": 0,
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "META",
+      "companyName": "Meta Platforms Inc.",
+      "per": 24.5,
+      "roe": 22.1,
+      "marketCap": 890,
+      "dividendYield": 0,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "TSLA",
+      "companyName": "Tesla Inc.",
+      "per": 67.2,
+      "roe": 19.8,
+      "marketCap": 680,
+      "dividendYield": 0,
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "JNJ",
+      "companyName": "Johnson & Johnson",
+      "per": 19.2,
+      "roe": 26.5,
+      "marketCap": 425,
+      "dividendYield": 2.9,
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "PG",
+      "companyName": "Procter & Gamble Co.",
+      "per": 24.7,
+      "roe": 28.3,
+      "marketCap": 350,
+      "dividendYield": 2.4,
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "JPM",
+      "companyName": "JPMorgan Chase & Co.",
+      "per": 12.1,
+      "roe": 15.9,
+      "marketCap": 480,
+      "dividendYield": 2.5,
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "V",
+      "companyName": "Visa Inc.",
+      "per": 30.5,
+      "roe": 39.8,
+      "marketCap": 510,
+      "dividendYield": 0.7,
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "WMT",
+      "companyName": "Walmart Inc.",
+      "per": 28.2,
+      "roe": 14.6,
+      "marketCap": 420,
+      "dividendYield": 1.5,
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "PFE",
+      "companyName": "Pfizer Inc.",
+      "per": 9.8,
+      "roe": 17.2,
+      "marketCap": 195,
+      "dividendYield": 5.2,
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "KO",
+      "companyName": "Coca-Cola Co.",
+      "per": 24.6,
+      "roe": 32.5,
+      "marketCap": 260,
+      "dividendYield": 2.8,
+      "sector": "Consumer Defensive"
+    },
+    {
+      "ticker": "DIS",
+      "companyName": "Walt Disney Co.",
+      "per": 43.1,
+      "roe": 8.4,
+      "marketCap": 180,
+      "dividendYield": 0,
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "MCD",
+      "companyName": "McDonald's Corp.",
+      "per": 25.3,
+      "roe": 158.5,
+      "marketCap": 210,
+      "dividendYield": 2.3,
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "NKE",
+      "companyName": "Nike Inc.",
+      "per": 32.1,
+      "roe": 36.7,
+      "marketCap": 165,
+      "dividendYield": 1.1,
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "INTC",
+      "companyName": "Intel Corp.",
+      "per": 15.2,
+      "roe": 11.5,
+      "marketCap": 145,
+      "dividendYield": 1.9,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "VZ",
+      "companyName": "Verizon Communications Inc.",
+      "per": 8.5,
+      "roe": 24.2,
+      "marketCap": 170,
+      "dividendYield": 6.9,
+      "sector": "Communication Services"
+    },
+    {
+      "ticker": "HD",
+      "companyName": "Home Depot Inc.",
+      "per": 20.1,
+      "roe": 785.2,
+      "marketCap": 310,
+      "dividendYield": 2.5,
+      "sector": "Consumer Cyclical"
+    },
+    {
+      "ticker": "BAC",
+      "companyName": "Bank of America Corp.",
+      "per": 11.2,
+      "roe": 10.8,
+      "marketCap": 260,
+      "dividendYield": 2.7,
+      "sector": "Financial Services"
+    },
+    {
+      "ticker": "CVX",
+      "companyName": "Chevron Corp.",
+      "per": 10.5,
+      "roe": 14.3,
+      "marketCap": 285,
+      "dividendYield": 4.1,
+      "sector": "Energy"
+    },
+    {
+      "ticker": "XOM",
+      "companyName": "Exxon Mobil Corp.",
+      "per": 11.3,
+      "roe": 18.6,
+      "marketCap": 430,
+      "dividendYield": 3.8,
+      "sector": "Energy"
+    },
+    {
+      "ticker": "UNH",
+      "companyName": "UnitedHealth Group Inc.",
+      "per": 22.7,
+      "roe": 26.4,
+      "marketCap": 455,
+      "dividendYield": 1.4,
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "MA",
+      "companyName": "Mastercard Inc.",
+      "per": 34.5,
+      "roe": 145.7,
+      "marketCap": 370,
+      "dividendYield": 0.6,
+      "sector": "Financial Services"
+    }
+  ]

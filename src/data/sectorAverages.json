@@ -1,0 +1,44 @@
+{
+    "Technology": {
+      "averagePER": 24.82,
+      "averageROE": 27.62,
+      "averageDividendYield": 0.64,
+      "averageMarketCap": 847.5
+    },
+    "Healthcare": {
+      "averagePER": 17.23,
+      "averageROE": 23.37,
+      "averageDividendYield": 3.17,
+      "averageMarketCap": 358.33
+    },
+    "Financial Services": {
+      "averagePER": 22.08,
+      "averageROE": 53.05,
+      "averageDividendYield": 1.63,
+      "averageMarketCap": 402.5
+    },
+    "Consumer Cyclical": {
+      "averagePER": 41.68,
+      "averageROE": 250.05,
+      "averageDividendYield": 1.48,
+      "averageMarketCap": 341.25
+    },
+    "Consumer Defensive": {
+      "averagePER": 25.83,
+      "averageROE": 25.13,
+      "averageDividendYield": 2.23,
+      "averageMarketCap": 343.33
+    },
+    "Energy": {
+      "averagePER": 10.9,
+      "averageROE": 16.45,
+      "averageDividendYield": 3.95,
+      "averageMarketCap": 357.5
+    },
+    "Communication Services": {
+      "averagePER": 25.8,
+      "averageROE": 16.3,
+      "averageDividendYield": 3.45,
+      "averageMarketCap": 175.0
+    }
+  }

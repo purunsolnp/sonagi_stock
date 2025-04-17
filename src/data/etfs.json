@@ -1,0 +1,182 @@
+[
+    {
+      "ticker": "SCHD",
+      "name": "Schwab U.S. Dividend Equity ETF",
+      "dividendYield": 3.6,
+      "expenseRatio": 0.06,
+      "aum": 48000,
+      "theme": "Dividend",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "dividendYield": 1.4,
+      "expenseRatio": 0.03,
+      "aum": 320000,
+      "theme": "Broad Market",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "dividendYield": 1.5,
+      "expenseRatio": 0.03,
+      "aum": 290000,
+      "theme": "Large Cap",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "dividendYield": 0.6,
+      "expenseRatio": 0.2,
+      "aum": 195000,
+      "theme": "Technology",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "TQQQ",
+      "name": "ProShares UltraPro QQQ",
+      "dividendYield": 0.1,
+      "expenseRatio": 0.95,
+      "aum": 12300,
+      "theme": "Technology",
+      "isLeveraged": true
+    },
+    {
+      "ticker": "ARKK",
+      "name": "ARK Innovation ETF",
+      "dividendYield": 0.3,
+      "expenseRatio": 0.75,
+      "aum": 7800,
+      "theme": "Innovation",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "VYM",
+      "name": "Vanguard High Dividend Yield ETF",
+      "dividendYield": 3.1,
+      "expenseRatio": 0.06,
+      "aum": 58000,
+      "theme": "Dividend",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "SPHD",
+      "name": "Invesco S&P 500 High Dividend Low Volatility ETF",
+      "dividendYield": 4.2,
+      "expenseRatio": 0.3,
+      "aum": 3600,
+      "theme": "Dividend",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "SOXL",
+      "name": "Direxion Daily Semiconductor Bull 3X Shares",
+      "dividendYield": 0.1,
+      "expenseRatio": 0.95,
+      "aum": 4200,
+      "theme": "Semiconductor",
+      "isLeveraged": true
+    },
+    {
+      "ticker": "JEPI",
+      "name": "JPMorgan Equity Premium Income ETF",
+      "dividendYield": 7.8,
+      "expenseRatio": 0.35,
+      "aum": 29000,
+      "theme": "Income",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "VIG",
+      "name": "Vanguard Dividend Appreciation ETF",
+      "dividendYield": 1.9,
+      "expenseRatio": 0.06,
+      "aum": 76000,
+      "theme": "Dividend Growth",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "ESGU",
+      "name": "iShares ESG Aware MSCI USA ETF",
+      "dividendYield": 1.3,
+      "expenseRatio": 0.15,
+      "aum": 23000,
+      "theme": "ESG",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "ICLN",
+      "name": "iShares Global Clean Energy ETF",
+      "dividendYield": 1.2,
+      "expenseRatio": 0.42,
+      "aum": 3800,
+      "theme": "Clean Energy",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "XLE",
+      "name": "Energy Select Sector SPDR Fund",
+      "dividendYield": 3.8,
+      "expenseRatio": 0.1,
+      "aum": 32000,
+      "theme": "Energy",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "XLF",
+      "name": "Financial Select Sector SPDR Fund",
+      "dividendYield": 2.0,
+      "expenseRatio": 0.1,
+      "aum": 35000,
+      "theme": "Financial",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "VNQ",
+      "name": "Vanguard Real Estate ETF",
+      "dividendYield": 4.1,
+      "expenseRatio": 0.12,
+      "aum": 32000,
+      "theme": "Real Estate",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "SPDW",
+      "name": "SPDR Portfolio Developed World ex-US ETF",
+      "dividendYield": 2.9,
+      "expenseRatio": 0.04,
+      "aum": 19000,
+      "theme": "International",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "VEA",
+      "name": "Vanguard FTSE Developed Markets ETF",
+      "dividendYield": 3.1,
+      "expenseRatio": 0.05,
+      "aum": 110000,
+      "theme": "International",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "SPYD",
+      "name": "SPDR Portfolio S&P 500 High Dividend ETF",
+      "dividendYield": 4.5,
+      "expenseRatio": 0.07,
+      "aum": 7600,
+      "theme": "Dividend",
+      "isLeveraged": false
+    },
+    {
+      "ticker": "SPXL",
+      "name": "Direxion Daily S&P 500 Bull 3X Shares",
+      "dividendYield": 0.2,
+      "expenseRatio": 0.95,
+      "aum": 3100,
+      "theme": "Large Cap",
+      "isLeveraged": true
+    }
+  ]
