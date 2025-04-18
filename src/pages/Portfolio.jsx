@@ -297,6 +297,52 @@ const Portfolio = () => {
       await incrementUsage();
       
       // 스크롤 이동
+      document.getElementById('portfolio-report').scrollIntoView({ behavior: 'smooth' });
+    } catch (err) {
+      console.error('GPT 분석 중 오류:', err);
+      setError(`GPT 분석 중 오류가 발생했습니다: ${err.message}`);
+    } finally {
+      setLoading(false);
+    }
+  };
+  
+  // 예수금 투자 분석 요청 핸들러
+  const handleRequestCashAnalysis = async (cashAmount, investmentStyle) => {
+    if (!currentUser) {
+      navigate('/login');
+      return;
+    }
+    
+    if (!canUseGpt) {
+      setError('GPT 분석 횟수 제한에 도달했습니다.');
+      return;
+    }
+    
+    if (portfolioItems.length === 0) {
+      setError('포트폴리오에 종목이 없습니다. 먼저 종목을 추가해주세요.');
+      return;
+    }
+    
+    setLoadingCash(true);
+    setError(null);
+    
+    try {
+      // 프롬프트 생성
+      const prompt = buildCashRecommendationPrompt(portfolioItems, cashAmount, investmentStyle);
+      
+      // GPT API 호출
+      const responseText = await callGptApi(prompt);
+      
+      // 결과 설정 (간단한 텍스트로 저장)
+      setCashReport({
+        recommendation: responseText,
+        timestamp: new Date().toISOString()
+      });
+      
+      // 사용량 증가
+      await incrementUsage();
+      
+      // 스크롤 이동
       document.getElementById('cash-report').scrollIntoView({ behavior: 'smooth' });
     } catch (err) {
       console.error('예수금 투자 분석 중 오류:', err);
@@ -449,50 +495,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;getElementById('portfolio-report').scrollIntoView({ behavior: 'smooth' });
-    } catch (err) {
-      console.error('GPT 분석 중 오류:', err);
-      setError(`GPT 분석 중 오류가 발생했습니다: ${err.message}`);
-    } finally {
-      setLoading(false);
-    }
-  };
-  
-  // 예수금 투자 분석 요청 핸들러
-  const handleRequestCashAnalysis = async (cashAmount, investmentStyle) => {
-    if (!currentUser) {
-      navigate('/login');
-      return;
-    }
-    
-    if (!canUseGpt) {
-      setError('GPT 분석 횟수 제한에 도달했습니다.');
-      return;
-    }
-    
-    if (portfolioItems.length === 0) {
-      setError('포트폴리오에 종목이 없습니다. 먼저 종목을 추가해주세요.');
-      return;
-    }
-    
-    setLoadingCash(true);
-    setError(null);
-    
-    try {
-      // 프롬프트 생성
-      const prompt = buildCashRecommendationPrompt(portfolioItems, cashAmount, investmentStyle);
-      
-      // GPT API 호출
-      const responseText = await callGptApi(prompt);
-      
-      // 결과 설정 (간단한 텍스트로 저장)
-      setCashReport({
-        recommendation: responseText,
-        timestamp: new Date().toISOString()
-      });
-      
-      // 사용량 증가
-      await incrementUsage();
-      
-      // 스크롤 이동
-      document.
+export default Portfolio;
